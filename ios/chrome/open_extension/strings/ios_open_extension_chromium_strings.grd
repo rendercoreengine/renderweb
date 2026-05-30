@@ -182,14 +182,14 @@
   </translations>
   <release seq="1">
     <messages fallback_to_english="true">
-      <message name="IDS_IOS_ERROR_MESSAGE_OPEN_IN_EXTENSION" desc="Open in Chromium extension message to tell the user the URL cannot be processed.">
-        Chromium cannot handle this link.
+      <message name="IDS_IOS_ERROR_MESSAGE_OPEN_IN_EXTENSION" desc="Open in RenderWeb extension message to tell the user the URL cannot be processed.">
+        RenderWeb cannot handle this link.
       </message>
-      <message name="IDS_IOS_OK_BUTTON_OPEN_IN_EXTENSION" desc="Label for the OK button in the Open in Chromium extension.">
+      <message name="IDS_IOS_OK_BUTTON_OPEN_IN_EXTENSION" desc="Label for the OK button in the Open in RenderWeb extension.">
         OK
       </message>
-      <message name="IDS_IOS_OPEN_IN_CHROME_OPEN_EXTENSION" desc="Open extension button to open link in Chromium [Length: 30em]" meaning="Button title [Length: 30em]">
-        Open in Chromium
+      <message name="IDS_IOS_OPEN_IN_CHROME_OPEN_EXTENSION" desc="Open extension button to open link in RenderWeb [Length: 30em]" meaning="Button title [Length: 30em]">
+        Open in RenderWeb
       </message>
     </messages>
   </release>

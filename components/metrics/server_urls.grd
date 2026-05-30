@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-The URL strings in this file are intentionally empty to prevent Chromium forks from
+The URL strings in this file are intentionally empty to prevent RenderWeb forks from
 accidentally sending metrics to Google servers. The values for Chrome-branded builds can
 be found here:
 https://chrome-internal.googlesource.com/chrome/components/metrics/internal/+/main/server_urls.grd

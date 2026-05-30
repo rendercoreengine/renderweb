@@ -1082,7 +1082,7 @@ Style notes:
         Update required by <ph name="MANAGER">$1<ex>google.com</ex></ph>
       </message>
       <message name="IDS_UPDATE_NOTIFICATION_MESSAGE_LEARN_MORE" desc="The body of the notification to notify that the user should restart to get system updates. This notification body links to the info page on the update.">
-        Learn more about the latest <ph name="SYSTEM_APP_NAME">$1<ex>ChromiumOS</ex></ph> update
+        Learn more about the latest <ph name="SYSTEM_APP_NAME">$1<ex>RenderWebOS</ex></ph> update
       </message>
       <message name="IDS_UPDATE_NOTIFICATION_RESTART_BUTTON" meaning="button label" desc="The label used as the button to restart system and update. Displayed as the action button of the notification for system update.">
         Restart
@@ -1091,7 +1091,7 @@ Style notes:
         Get the latest features and security improvements. Updates happen in the background.
       </message>
       <message name="IDS_UPDATE_NOTIFICATION_MESSAGE_POWERWASH" desc="The notification message used in the system notification update when user need to powerwash the device in order to update the system.">
-        This update requires powerwashing your <ph name="DEVICE_TYPE">$1<ex>Chromebook</ex></ph>. All data will be deleted. Learn more about the latest <ph name="SYSTEM_APP_NAME">$2<ex>ChromiumOS</ex></ph> update.
+        This update requires powerwashing your <ph name="DEVICE_TYPE">$1<ex>Chromebook</ex></ph>. All data will be deleted. Learn more about the latest <ph name="SYSTEM_APP_NAME">$2<ex>RenderWebOS</ex></ph> update.
       </message>
       <message name="IDS_UPDATE_NOTIFICATION_MESSAGE_ROLLBACK" desc="The notification message used in the system notification update when the device is rolled back and data will be deleted. MANAGER can be a domain or an email address.">
         <ph name="MANAGER">$1<ex>google.com</ex></ph> is rolling back your <ph name="DEVICE_TYPE">$2<ex>Chromebook</ex></ph>. Your device will reset and all data will be deleted.
@@ -1100,7 +1100,7 @@ Style notes:
         <ph name="MANAGER">$1<ex>google.com</ex></ph> requires you to roll back your <ph name="DEVICE_TYPE">$2<ex>Chromebook</ex></ph>. Your device will reset and all data will be deleted.
       </message>
       <message name="IDS_UPDATE_NOTIFICATION_MESSAGE_SLOW_BOOT" desc="The additional body of the notification to notify the user that the next reboot is slow.">
-        <ph name="UPDATE_TEXT">$1<ex>Learn more about the latest ChromiumOS update</ex></ph>. This Chromebook needs to restart to apply an update. This can take up to 1 minute.
+        <ph name="UPDATE_TEXT">$1<ex>Learn more about the latest RenderWebOS update</ex></ph>. This Chromebook needs to restart to apply an update. This can take up to 1 minute.
       </message>
       <message name="IDS_DIALOG_TITLE_SLOW_BOOT" desc="The title of the Slow Boot Shutdown Confirmation Dialog.">
         Restart may take awhile
@@ -5333,7 +5333,7 @@ No devices connected.
       </if>
       <if expr="not _google_chrome">
         <message name="IDS_ASH_MESSAGE_CENTER_SYSTEM_APP_NAME" desc="The source of a system-generated notification, as displayed to the user.">
-          ChromiumOS
+          RenderWebOS
         </message>
       </if>
       <message name="IDS_ASH_MESSAGE_CENTER_ACCELERATOR_NO_NOTIFICATIONS" desc="The toast message displayed when Alt+Shift+N is pressed but there are no notifications.">
@@ -7119,18 +7119,18 @@ New install
       </message>
       <message name="IDS_PICKER_LIST_ITEM_ACCESSIBLE_NAME"
         desc="This string is read out by a screen reader to describe a search result. The search result contains two lines of text: a primary text (e.g. the title of a page) and a secondary text (e.g. the URL of a page). The commas are significant as they will introduce a pause in the spoken text. This string is used inside the placeholder of another message.">
-        <ph name="PRIMARY_TEXT">$1<ex>The Chromium Projects</ex></ph>, <ph name="SECONDARY_TEXT">$2<ex>www.chromium.org</ex></ph>
+        <ph name="PRIMARY_TEXT">$1<ex>The RenderWeb Projects</ex></ph>, <ph name="SECONDARY_TEXT">$2<ex>www.chromium.org</ex></ph>
       </message>
       <message name="IDS_PICKER_LIST_ITEM_WITH_SHORTCUT_ACCESSIBLE_NAME" desc="Text for screenreaders describing a search result with an action description and a shortcut hint which shows a keyboard shortcut for performing the action. The commas are significant as they will introduce a pause in the spoken text.">
         <ph name="ACTION_DESCRIPTION">$1<ex>Turn on caps lock</ex></ph>, <ph name="SHORTCUT_HINT">$2<ex>alt + search</ex></ph>
       </message>
       <message name="IDS_PICKER_LIST_ITEM_INSERT_ACTION_ACCESSIBLE_NAME"
         desc="This string is read out by a screen reader to describe a search result. 'Insert' indicates that selecting this search result will insert the contents of the result into a textfield. The placeholder contains the contents of the search result.">
-        Insert <ph name="SEARCH_RESULT_TEXT">$1<ex>The Chromium Projects, www.chromium.org</ex></ph>
+        Insert <ph name="SEARCH_RESULT_TEXT">$1<ex>The RenderWeb Projects, www.chromium.org</ex></ph>
       </message>
       <message name="IDS_PICKER_LIST_ITEM_OPEN_ACTION_ACCESSIBLE_NAME"
         desc="This string is read out by a screen reader to describe a search result. 'Open' indicates that selecting this search result will open the result in a separate window. The placeholder contains the contents of the search result.">
-        Open <ph name="SEARCH_RESULT_TEXT">$1<ex>The Chromium Projects, www.chromium.org</ex></ph>
+        Open <ph name="SEARCH_RESULT_TEXT">$1<ex>The RenderWeb Projects, www.chromium.org</ex></ph>
       </message>
       <message name="IDS_PICKER_NO_RESULTS_FOR_BROWSING_HISTORY_LABEL_TEXT"
         desc="This string appears on a page that shows suggested results from the user's browsing history. The string is shown below an illustration banner. It indicates that there are no suggested browsing history results available.">
@@ -10037,7 +10037,7 @@ To shut down the device, press and hold the power button on the device again.
         </then>
         <else>
           <message name="IDS_TERMS_OF_SERVICE_SCREEN_SUBHEADING" desc="Subheading at the top of the Terms of Service screen. MANAGER can be a domain or an email address.">
-            <ph name="MANAGER">$1<ex>example.com</ex></ph> requires that you read and accept the following Terms of Service before using this device. These terms do not expand, modify or limit the ChromiumOS Terms.
+            <ph name="MANAGER">$1<ex>example.com</ex></ph> requires that you read and accept the following Terms of Service before using this device. These terms do not expand, modify or limit the RenderWebOS Terms.
           </message>
         </else>
       </if>

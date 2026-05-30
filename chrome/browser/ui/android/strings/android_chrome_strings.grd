@@ -2479,7 +2479,7 @@ Your Google account may have other forms of browsing history like searches and a
       <message name="IDS_ACCOUNT_DATA_DASHBOARD_TITLE" desc="Title for the cell to open 'Chrome and ChromeOS data in your account' web page where the user can control all their data data from sync.">
         Chrome data in your account
       </message>
-      <message name="IDS_ACCOUNT_DATA_DASHBOARD_SUBTITLE" desc="Subtitle for the preference to open 'Data from Chromium sync' web page where the user can control all their data data from sync.">
+      <message name="IDS_ACCOUNT_DATA_DASHBOARD_SUBTITLE" desc="Subtitle for the preference to open 'Data from RenderWeb sync' web page where the user can control all their data data from sync.">
         Review your account data
       </message>
       <message name="IDS_MANAGE_YOUR_GOOGLE_ACCOUNT" desc="Title for link to Google Account Page to manage account settings.">
@@ -5632,7 +5632,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Chrome d
 
       <!-- AuthTab -->
       <message name="IDS_AUTH_TAB_SECURED_BY_CHROME_TEMPLATE" desc="Message template that used to indicating that the Auth Tab is securely running on Chrome. [CHAR_LIMIT=32]">
-        Secured by <ph name="APP_NAME">%1$s<ex>Chromium</ex></ph>
+        Secured by <ph name="APP_NAME">%1$s<ex>RenderWeb</ex></ph>
       </message>
 
       <!-- WebAPK/TWA related strings -->
@@ -5643,7 +5643,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Chrome d
         Running in Chrome
       </message>
       <message name="IDS_TWA_RUNNING_IN_CHROME_TEMPLATE" desc="Message template that used to indicating that the current Activity may use Chrome data (the rest of the app may not be). [CHAR_LIMIT=32]">
-        Running in <ph name="APP_NAME">%1$s<ex>Chromium</ex></ph>
+        Running in <ph name="APP_NAME">%1$s<ex>RenderWeb</ex></ph>
       </message>
       <message name="IDS_TWA_RUNNING_IN_CHROME_V2" desc="Updated message on a snackbar indicating that the current Activity may use Chrome data (the rest of the app may not be).">
         You'll see your <ph name="SITE_NAME">%1$s<ex>www.youtube.com</ex></ph> sign-in status, browsing data, and site data in Chrome
