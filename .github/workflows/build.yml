@@ -6,8 +6,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install depot_tools
+        run: |
+          git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+          echo "$(pwd)/depot_tools" >> $GITHUB_PATH
+
       - name: Install dependencies
-        run: sudo apt-get install -y ninja-build
-      - name: Build
-        run: echo "Build setup in progress"
+        run: |
+          sudo apt-get update
+          sudo ./build/install-build-deps.sh --no-prompt
+
+      - name: Generate build files
+        run: |
+          gn gen out/Default --args='is_debug=false is_component_build=false'
+
+      - name: Compile RenderWeb
+        run: |
+          autoninja -C out/Default chrome
